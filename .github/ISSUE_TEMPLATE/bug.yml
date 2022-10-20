@@ -10,6 +10,8 @@ body:
       options:
         - oidc
         - saml
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Describe the bug
