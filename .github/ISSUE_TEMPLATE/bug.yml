@@ -2,6 +2,14 @@ name: Bug Report
 description: Report a non-security sensitive bug in Keycloak
 labels: ["kind/bug", "status/triage"]
 body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Affected area
+      options:
+        - oidc
+        - saml
   - type: textarea
     attributes:
       label: Describe the bug
